@@ -1,3 +1,16 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+
+    h1,
+    h2,
+    h3 {
+        @apply font-display font-black leading-none tracking-tight;
+    }
+
+    .link:hover {
+        @apply underline;
+    }
+}
